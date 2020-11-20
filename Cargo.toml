@@ -9,3 +9,4 @@ edition = "2018"
 [dependencies]
 crossterm = "0.17"
 tui = { version = "0.12", default-features = false, features = ['crossterm'] }
+tokio = { version = "0.2", features = ["full"] }
